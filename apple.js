@@ -1,10 +1,10 @@
-// Use ES6
+
 "use strict";
 
 const _ = require('lodash');
 
 /*
- * Apple class
+ * Point (it is Apple)
  */
 class Apple {
   constructor(options) {
@@ -35,7 +35,7 @@ class Apple {
         }
       });
     });
-    // With apples
+    // With Point(apples)
     this.apples.forEach((a) => {
       // Except self
       if(this !== a) {
