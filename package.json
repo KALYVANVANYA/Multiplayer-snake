@@ -1,0 +1,32 @@
+{
+  "name": "snake-mp-socketio",
+  "version": "0.0.1",
+  "description": "snake multiplayer ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ivan Vakal",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "lodash": "^4.16.4",
+    "socket.io": "^1.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VANYA-IVAN/Multiplayer-snakes-Demo"
+  },
+  "keywords": [
+    "snake",
+    "game"
+  ],
+  "bugs": {
+    "url": "https://github.com/VANYA-IVAN/Multiplayer-snakes-Demo"
+  },
+  "homepage": "https://github.com/VANYA-IVAN/Multiplayer-snakes-Demo"
+}
