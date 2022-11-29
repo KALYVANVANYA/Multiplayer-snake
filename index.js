@@ -60,13 +60,13 @@ io.on('connection', (client) => {
     }
   });
 
-  // Remove players on disconnect
+  // Removing players on disconnect
   client.on('disconnect', () => {
     _.remove(players, player);
   });
 });
 
-// Create apples
+// Create foods
 for(var i=0; i < 3; i++) {
   apples.push(new Apple({
     gridSize: GRID_SIZE,
