@@ -23,12 +23,12 @@
     <script>
       GameCanvas = (function() {
         /*
-          Constructor
+          Constructor of the game 
         */
         function GameCanvas(canvas) {
           var ratio = window.innerWidth < window.innerHeight ?
             window.innerWidth : window.innerHeight;
-
+// Size of the map 
           this.canvas = canvas;
           this.canvas.width = this.canvas.height = ratio;
           this.context = this.canvas.getContext('2d');
