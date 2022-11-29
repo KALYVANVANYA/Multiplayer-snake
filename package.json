@@ -1,7 +1,7 @@
 {
-  "name": "snake-mp-socketio",
+  "name": "Multiplayer Snake Game",
   "version": "0.0.1",
-  "description": "snake multiplayer ",
+  "description": "Multiplayer snake game ",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
