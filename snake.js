@@ -19,7 +19,7 @@ class Snake {
     _.assign(this, options);
     this.respawn();
   }
-
+// Moving keys 
   changeDirection(key) {
     switch (key) {
       case KEYS.up:
