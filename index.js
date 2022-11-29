@@ -13,7 +13,7 @@ const Apple = require('./apple');
 // ID's seed
 let autoId = 0;
 // Grid size
-const GRID_SIZE = 40;
+const GRID_SIZE = 80;
 // Remote players 
 let players = [];
 // Food
