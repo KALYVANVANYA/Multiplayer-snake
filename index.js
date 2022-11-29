@@ -14,9 +14,9 @@ const Apple = require('./apple');
 let autoId = 0;
 // Grid size
 const GRID_SIZE = 40;
-// Remote players 🐍
+// Remote players 
 let players = [];
-// Apples 🍎
+// Food
 let apples = [];
 
 /*
